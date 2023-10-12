@@ -1,0 +1,15 @@
+{
+  "name": "simpleoffencesuppression-f4",
+  "version-string": "1.0.0",
+  "description": "",
+  "homepage": "",
+  "license": "MIT",
+  "dependencies": [
+    "boost-stl-interfaces",
+    "clib-util",
+    "fmt",
+    "rsm-mmio",
+    "spdlog",
+    "xbyak"
+  ]
+}
