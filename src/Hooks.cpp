@@ -28,7 +28,7 @@ namespace SimpleOffenceSuppression
 		const auto settings = Settings::GetSingleton();
 	    settings->Load();
 
-        const REL::Relocation<std::uintptr_t> target{ REL::ID(577395), 0x1E0 };
+        const REL::Relocation<std::uintptr_t> target{ REL::ID(2231180), 0x1DE };
 		stl::write_thunk_call<GetFactionFightReaction>(target.address());
 
 		logger::info("Hooked GetFactionFightReaction");
