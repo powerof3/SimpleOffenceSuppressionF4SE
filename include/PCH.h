@@ -9,6 +9,7 @@
 #pragma warning(push)
 #include "F4SE/F4SE.h"
 #include "RE/Fallout.h"
+#include "REX/REX/Singleton.h"
 
 #ifdef NDEBUG
 #	include <spdlog/sinks/basic_file_sink.h>
@@ -18,7 +19,6 @@
 
 #include <CLibUtil/simpleINI.hpp>
 #include <CLibUtil/string.hpp>
-#include <CLibUtil/singleton.hpp>
 #pragma warning(pop)
 
 #define DLLEXPORT __declspec(dllexport)
@@ -28,7 +28,6 @@ namespace string = clib_util::string;
 namespace ini = clib_util::ini;
 
 using namespace std::literals;
-using namespace clib_util::singleton;
 
 namespace stl
 {

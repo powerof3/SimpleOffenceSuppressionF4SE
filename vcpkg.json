@@ -1,14 +1,17 @@
 {
   "name": "simpleoffencesuppression-f4",
-  "version-string": "1.0.0",
+  "version-string": "1.2.0",
   "description": "",
   "homepage": "",
   "license": "MIT",
   "dependencies": [
     "clib-util",
-    "fmt",
     "rsm-mmio",
-    "spdlog",
+    {
+      "name": "spdlog",
+      "features": [ "wchar" ]
+    },
     "xbyak"
-  ]
+  ],
+  "builtin-baseline": "62efe42f53b1886a20cbeb22ee9a27736d20f149"
 }
